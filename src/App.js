@@ -1,0 +1,24 @@
+import logo from './logo.svg';
+import './App.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Banner from './components/Banner';
+import DaasPlatform from './components/DaasPlatform';
+import Solution from './components/Solution';
+function App() {
+
+  return (
+    <>
+       <Navbar/> 
+
+      {/* <Banner/>
+      <DaasPlatform />  */}
+      <Solution />
+      <Footer/>
+      
+      
+    </>
+  );
+}
+
+export default App;
